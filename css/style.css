@@ -78,10 +78,14 @@ a:hover{
 .main-content{
 	margin:20px 0;
 }
+.border-box{
+	padding:0 15px;
+	border: 1px solid #DDD;
+}
 .left-cont{
 	float: left;
 	width: 628px;
-	padding: 20px 15px;	
+	padding: 0 15px;	
 	margin-right: 20px;
 	_margin-right:10px;
 	overflow: hidden;
@@ -89,12 +93,10 @@ a:hover{
 .right-cont{
 	float: left;
 	width: 408px;
-	padding:20px 15px;
-	border: 1px solid #DDD;
 	overflow: hidden;
 }
 .section .title{
-	margin:0 0 10px;
+	margin:10px 0;
 	line-height: 24px;
 }
 .article{
@@ -157,6 +159,7 @@ a:hover{
 
 /* panel */
 .panel{
+	margin: 0 0 15px;
 	border: 1px solid rgb(204, 0, 0);
 }
 .panel .heading{
