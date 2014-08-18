@@ -90,15 +90,15 @@ a:hover{
 }
 .left-cont{
 	float: left;
-	width: 628px;
-	padding: 0 15px;	
+	width: 645px;
+	padding: 0 15px 0 0;	
 	margin-right: 20px;
 	_margin-right:10px;
 	overflow: hidden;
 }
 .right-cont{
 	float: left;
-	width: 442px;
+	width: 440px;
 	overflow: hidden;
 }
 .section .title{
@@ -136,7 +136,7 @@ a:hover{
 	height:278px;
 }
 .h-thumb{
-	width:300px;
+	width:312px;
 	vertical-align: top;
 }
 .thumb img{
@@ -218,7 +218,7 @@ a:hover{
 .related-pics a{
 	display: inline-block;
 	margin-right: 10px;
-	width:192px;
+	width:197px;
 }
 .related-pics a.last{
 	margin:0;
