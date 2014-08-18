@@ -15,7 +15,7 @@ img{
 	max-width: 100%;
 }
 a{
-	color:#346699;
+	color:#000;
 	text-decoration: none;
 }
 a:hover{
@@ -32,6 +32,9 @@ a:hover{
 }
  .clearfix {
     *zoom: 1;
+}
+.text-center{
+	text-align: center;
 }
 .container{
 	width:1120px;
@@ -76,11 +79,14 @@ a:hover{
 }
 /* main content */
 .main-content{
-	margin:20px 0;
+	margin:10px 0;
 }
 .border-box{
 	padding:0 15px;
 	border: 1px solid #DDD;
+}
+.box{
+	margin-bottom: 10px;
 }
 .left-cont{
 	float: left;
@@ -120,13 +126,24 @@ a:hover{
 	margin-left:260px;
 }
 .thumb{
-	display: block;
+	display: inline-block;
 	border: 1px solid #DADADA;
 	padding: 2px;
 	line-height: 0;
 }
+.v-thumb{
+	width:178px;
+	height:252px;
+}
+.h-thumb{
+	width:300px;
+	vertical-align: top;
+}
 .thumb img{
 	width:100%;
+}
+.v-thumb img{
+	height:100%;
 }
 .left-cont .article .l .thumb{
 	width: 240px;
@@ -150,13 +167,23 @@ a:hover{
 .article .r strong{
 	color:#346699;
 }
-.article .r .red{
+.article .r .red,.red{
 	color: red;
+}
+.gray{
+	color:gray;
 }
 .article .r .bottom{
 	margin-top: 20px;
 }
-
+.article .p-indent{
+	margin-bottom: 10px;
+	text-indent: 16px;
+}
+/* article list */
+.article-list li{
+	border-top:1px dashed #ddd;
+}
 /* panel */
 .panel{
 	margin: 0 0 15px;
@@ -177,6 +204,9 @@ a:hover{
 	margin-bottom: 10px;
 	text-indent: 16px;
 }
+.cont .article p{
+	margin-bottom: 10px;
+}
 .panel .body .article p.imagebox{
 	text-align: center;
 }
@@ -195,4 +225,8 @@ a:hover{
 }
 .related-pics a img{
 	width: 100%;
+}
+#footer{
+	border-top: 3px solid #346699;
+	padding:20px;
 }
