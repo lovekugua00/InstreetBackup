@@ -52,8 +52,10 @@ a:hover{
 	height: 60px;
 	line-height: 60px;
 	color: yellow;
-	font-size:20px;
+	font-size: 30px;
 	font-weight: bold;
+	letter-spacing: 2px;
+
 }
 .banner-text span{
 	margin:0 20px;
@@ -101,16 +103,18 @@ a:hover{
 	width: 440px;
 	overflow: hidden;
 }
+.left-cont .section,.right-cont .section{
+	padding:15px 0;
+}
 .section .title{
-	margin:10px 0;
+	margin:0 0 10px;
 	line-height: 24px;
 }
 .article{
-	margin-bottom: 20px;
 	line-height: 20px;
 }
 .article .title{
-	margin: 0 0 15px;
+	margin: 0 0 10px;
 	border-bottom: 1px solid #000;
 	padding: 10px;
 	text-align: center;
@@ -132,8 +136,8 @@ a:hover{
 	line-height: 0;
 }
 .v-thumb{
-	width:196px;
-	height:278px;
+	width: 150px;
+	margin: 0 10px;
 }
 .h-thumb{
 	width:312px;
@@ -182,7 +186,10 @@ a:hover{
 }
 /* article list */
 .article-list li{
-	border-top:1px dashed #ddd;
+	border-bottom:1px dashed #ddd;
+}
+.article-list li.last{
+	border-bottom: none;
 }
 /* panel */
 .panel{
@@ -202,15 +209,23 @@ a:hover{
 }
 .panel .body .article p{
 	margin-bottom: 10px;
-	text-indent: 16px;
 }
 .cont .article p{
 	margin-bottom: 10px;
 }
-.panel .body .article p.imagebox{
+.article p.imagebox{
+	text-indent: 0;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.icon-link{
+	display: inline-block;
+	margin: 0 10px;
 	text-align: center;
 }
-
+.icon-link span{
+	display: block;
+}
 /* related pics */
 .related-pics{
 	font-size: 0;
